@@ -98,6 +98,8 @@
             font-family: var(--font-headings);
         }
 
+        /*================= HEADER =================*/
+
         .container {
             max-width: 144rem;
             margin: 0 auto;
@@ -123,6 +125,8 @@
         .main-logo-icon {
             margin-right: 2rem;
         }
+
+        /*================= SEARCH =================*/
 
         .search-form {
             border: .2rem solid var(--color-primary-dark);
@@ -166,6 +170,18 @@
         .search-form:focus-within .search-btn {
             color: var(--color-primary);
 
+        }
+
+        /*================= CARDVIEW =================*/
+
+        .main-content {
+            padding-top: 0;
+        }
+
+        .main-content-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: var(--spacing-gutter-large);
         }
     </style>
 </head>
